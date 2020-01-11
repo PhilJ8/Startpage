@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="utf-8">
+<title> Start Page </title>
+<link href="images/start.ico" rel="icon"/>
+<link href="search.css" rel="stylesheet">
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<link href="startpage.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="API">
+  <div class="main">
+        <!--change GPS localization in temp.js for local temperature-->
+        <p id="weather"> </p>
+  </div>
+  <div class="main">
+        <p id="spanHour"> </p>
+  </div>
+  <div class="clear">  </div>
+</div>
+
+<div class="searchbar">
+  <form method="get" action="http://www.google.com/search" target="blank">
+            <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="Saisissez votre recherche ici ..." name="q" size="20" maxlength="255" value="" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="close" onclick="searchToggle(this, event);"></span>
+                <div class="result-container">
+                </div>
+            </div>
+  </form>
+</div>
+
+<div class="stones">
+          <div class="link-title">
+          <h2>Sport</h2>
+              <div class="link">
+              <a href="https://www.youtube.com/watch?v=tAUf7aajBWE" target="_blank" > Yoga at your desk  </a>
+              </div>
+              <div class="link">
+              <a href="https://www.google.fr/search?source=hp&ei=Td_gXbHADYyrmwWHibWYBw&q=r%C3%A9sultat+RCS&btnK=Recherche+ù&oq=rufus&gs_l=psy-ab.3..0l10.2888.3449..4925...0.0..0.57.293.6......0....1..gws-wiz.....0..0i131.XkrmvGBgJog&ved=0ahUKEwjxmsC6iI_mAhWM1aYKHYdEDXMQ4dUDCAY&uact=5" target="_blank" > scores RCS  </a>
+              </div>
+          </div>
+
+          <div class="link-title">
+          <h2>News</h2>
+<!-- step1 : after href="favoritewebsite" put instead the blue text your favorite website address.-->
+<!-- step 2 : put instead the white text your favorite website name -->
+
+              <div class="link">
+              <a href="https://www.francetvinfo.fr/"
+              target="_blank" > France Info  </a>
+              </div>
+              <div class="link">
+              <a href="https://www.euronews.com/" target="_blank" > Euro News  </a>
+              </div>
+          </div>
+
+          <div class="link-title">
+            <h2>Liens </h2>
+                <div class="link">
+                <a href="https://translate.google.fr/?hl=fr" target="_blank" > Traduction  </a>
+                </div>
+                <div class="link">
+                <a href="https://wallpaperscraft.com/" target="_blank" > Change background </a>
+              </div>
+          </div>
+</div>
+
+<div class="item">
+      <div class="icon">
+          <a href="https://www.dna.fr/" target="_blank">  <img src="dna.png" alt="logodna" height="60"/> </a>
+      </div>
+
+      <div class="icon">
+        <a href="https://www.primevideo.com" target="_blank">  <img src="primevideo.png" alt="logoprimevideo" height="60"/> </a>
+      </div>
+
+      <div class="icon">
+          <a href="https://outlook.office.com/mail/inbox" target="_blank">  <img src="outlook.png" alt="logooutlook" height="60"/> </a>
+      </div>
+
+      <div class="icon">
+          <a href="https://www.youtube.com/" target="_blank">  <img src="youtube.png"  alt="logoyoutube" height="60"/> </a>
+      </div>
+
+            <div class="icon">
+                <a href="https://www.gmail.com/" target="_blank">  <img src="Gmail.png" alt="logoGmail" height="60"/> </a>
+            </div>
+
+      <div class="icon">
+          <a href="https://www.netflix.com/fr/" target="_blank">  <img src="netflix.png" alt="logonetflix" height="60"/> </a>
+      </div>
+
+      <div class="icon">
+          <a href="snake.html" target="_blank">  <img src="snake-icon.png" alt="serpent" height="60"/> </a>
+      </div>
+</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script src="anim.js"> </script>
+<script src="watch.js"> </script>
+<script src="temp.js"> </script>
+
+</body>
+</html>
