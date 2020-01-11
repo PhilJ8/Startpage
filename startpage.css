@@ -166,3 +166,10 @@ text-shadow: 1px 1px 1px #000;
 margin: 0 auto;
 line-height: 50px;
 }
+
+.copyright
+{
+margin-top: 250px;
+text-align: center;
+color: white;
+}
