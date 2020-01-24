@@ -167,6 +167,21 @@ margin: 0 auto;
 line-height: 50px;
 }
 
+.icon:hover
+{
+width:30px;
+height: 67px;
+line-height: 2;
+padding: 0 40px;
+font-size: 1rem;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+margin: 0 auto;
+line-height: 50px;
+transform: scale(1.2);
+}
+
 .copyright
 {
 margin-top: 250px;
